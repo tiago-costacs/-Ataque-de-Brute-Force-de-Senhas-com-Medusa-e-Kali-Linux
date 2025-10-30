@@ -24,5 +24,5 @@ O teste demonstrou que credenciais fracas facilitam acesso por força bruta. Med
 
 ## 10. Apêndices
 - Comandos completos usados (ver `commands.sh`).
-- Logs completos: `artifacts/medusa-ftp-output.txt`, `artifacts/medusa-smb-output.txt`.
+- Logs completos: `artifacts.md'.
 - Screenshots em `screenshots/`.
