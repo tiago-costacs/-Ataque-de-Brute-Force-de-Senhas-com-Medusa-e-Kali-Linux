@@ -1,5 +1,5 @@
 Primeiros passos:
-Depois de configurarmos:
+-Depois de configurarmos:
 
 -Alvo: Metasploitable 2 / DVWA
 -Atacante: Kali Linux
@@ -10,8 +10,8 @@ Precisamos deixar os dois ambientes na mesma rede
 Agora que os dois ambientes estão na mesma rede vamos iniciar os dois 
 
 Metasploitable :
-Login :msfadmin
-password: msfadmin
+-Login :msfadmin
+-Password: msfadmin
 
 <img width="581" height="401" alt="image" src="https://github.com/user-attachments/assets/42c8d2c7-b444-44b5-a739-dac55389abad" />
 
