@@ -19,9 +19,9 @@ Metasploitable :
 <img width="581" height="401" alt="image" src="https://github.com/user-attachments/assets/42c8d2c7-b444-44b5-a739-dac55389abad" />
 
 
+Agora precizamos dar o seguinte comando para verificarmos o IP que vamos realizar o ataque:
 
-
-
+comando= ifconfig
 
 
 
