@@ -1,31 +1,43 @@
-Primeiros passos:
-
-Depois de configurarmos:
-
--Alvo: Metasploitable 2 / DVWA
--Atacante: Kali Linux
-
-Precisamos deixar os dois ambientes na mesma rede
-<img width="677" height="388" alt="image" src="https://github.com/user-attachments/assets/2daaf14e-7a89-4226-95bd-cc8013ef2db9" />
-
-Agora que os dois ambientes estão na mesma rede vamos iniciar os dois 
-
-Metasploitable :
-
--Login :msfadmin
-
--Password: msfadmin
-
-<img width="581" height="401" alt="image" src="https://github.com/user-attachments/assets/42c8d2c7-b444-44b5-a739-dac55389abad" />
+---
 
 
-Agora precizamos dar o seguinte comando para verificarmos o IP que vamos realizar o ataque:
-
-comando= ifconfig
+## 2) report.md (preenchido com exemplos de saída)
 
 
+```markdown
+# Relatório Técnico — Ataques de Força Bruta com Medusa
 
-<img width="686" height="378" alt="image" src="https://github.com/user-attachments/assets/a0aafb4f-63a7-486d-8a29-5cf6a643c561" />
+
+**Nota:** troque todos os placeholders (`<TARGET_IP>`, `<DATA>`, etc.) antes de publicar.
 
 
+## 1. Sumário executivo
+Laboratório realizado em ambiente controlado (VirtualBox, rede Host-Only). Foram executados testes de força bruta contra FTP, formulário web (DVWA) e SMB usando Medusa. Foram obtidas credenciais válidas em FTP e confirmações de tentativas em SMB. Recomenda-se bloqueio por tentativas, MFA e políticas de senha fortes.
 
+
+## 2. Escopo e autorização
+- Alvo: Metasploitable 2 (DVWA disponível)
+- Atacante: Kali Linux
+- Rede: VirtualBox — Host-Only
+- Autorização: Projeto acadêmico D.I.L.L. — Tiago Costa — Data: <DATA>
+
+
+## 3. Ambiente
+- Kali Linux: versão X.Y
+- Metasploitable 2: versão standard
+- Medusa: versão X.Y
+- IP atacante: 192.168.56.100
+- IP alvo: <TARGET_IP>
+
+
+## 4. Wordlists usadas
+- `wordlists/small-users.txt` (ex.: msfadmin, admin, user, root, www-data)
+- `wordlists/small-pass.txt` (ex.: password, admin, 123456, msfadmin, toor)
+
+
+## 5. Execução dos testes
+> Todos os comandos foram executados a partir do Kali. Os outputs foram salvos em `artifacts/`.
+
+
+### 5.1 FTP — Força bruta (usuário único)
+**Comando:**
