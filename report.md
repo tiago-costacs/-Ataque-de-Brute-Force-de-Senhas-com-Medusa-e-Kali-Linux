@@ -8,9 +8,6 @@
 # Relatório Técnico — Ataques de Força Bruta com Medusa
 
 
-**Nota:** troque todos os placeholders (`<TARGET_IP>`, `<DATA>`, etc.) antes de publicar.
-
-
 ## 1. Sumário executivo
 Laboratório realizado em ambiente controlado (VirtualBox, rede Host-Only). Foram executados testes de força bruta contra FTP, formulário web (DVWA) e SMB usando Medusa. Foram obtidas credenciais válidas em FTP e confirmações de tentativas em SMB. Recomenda-se bloqueio por tentativas, MFA e políticas de senha fortes.
 
