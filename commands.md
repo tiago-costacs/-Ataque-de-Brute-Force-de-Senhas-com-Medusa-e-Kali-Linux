@@ -52,7 +52,7 @@ msfadmin" > senhas_spray.txt`
 -t 10: threads (tentativas simultâneas). Ajuste conforme CPU/rede.
 
 **Exemplo SMB:**
-`medusa -h 192.168.56.110 -U smb_users.txt -P senhas_spray.txt -M smbnt -t 10`
+`medusa -h 193.165.58.128 -U smb_users.txt -P senhas_spray.txt -M smbnt -t 10`
 
 
 ---
