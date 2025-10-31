@@ -1,6 +1,11 @@
 # Projeto: Ataques de Força Bruta com Kali + Medusa (Ambiente Controlado)
 
 
+
+
+Escopo: Metasploitable2 (VM em VirtualBox), rede Host-Only, IPs internal — testes realizados apenas neste ambiente controlado. 
+
+
 Projeto: Ataques de Força Bruta com Kali + Medusa (Ambiente Controlado)
 
 
