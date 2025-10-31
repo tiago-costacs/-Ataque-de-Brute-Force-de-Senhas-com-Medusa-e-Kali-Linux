@@ -32,10 +32,10 @@ Laboratório realizado em ambiente controlado para demonstrar técnicas de forç
 ## 5. Comandos executados (resumo)
 > Substitua `<TARGET_IP>` e `<PORTA>` pelos valores do seu laboratório.
 
-### 5.1 Conectividade
+# 5.1 Conectividade
 ```bash
-ping -c 4 <TARGET_IP>
-
+ping -c 4 <TARGET_IP>.
+---
 # 5.2 Mapeamento de portas e serviços (Nmap)
 
 UDP scan:
