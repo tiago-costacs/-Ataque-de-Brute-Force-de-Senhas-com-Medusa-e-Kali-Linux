@@ -108,7 +108,7 @@ medusa -h <TARGET_IP> -u msfadmin -P wordlists/small-pass.txt -M ftp | tee artif
 
 # 5.6 Validação SMB (smbclient)
 smbclient -L //<TARGET_IP> -U msfadmin
-## ou (não recomendado para repositório público)
+(não recomendado para repositório público)
 smbclient -L //<TARGET_IP> -U msfadmin%msfadmin
 
 # 6. Resultados (resumo)
