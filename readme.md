@@ -14,7 +14,7 @@ Resumo rápido: laboratório com duas VMs (Kali e Metasploitable/DVWA). Ataques 
 
 ## Conteúdo do repositório
 - `report.md` — relatório técnico detalhado (passo a passo).
-- `commands.sh` — script com os comandos usados (exemplos).
+- `commands.md` — script com os comandos usados (exemplos).
 - `wordlists/` — listas de usuários e senhas de demonstração.
 - `screenshots/` — evidências (prints).
 - `artifacts/` — logs e saídas do Medusa.
