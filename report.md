@@ -33,10 +33,8 @@ Laboratório realizado em ambiente controlado para demonstrar técnicas de forç
 > Substitua `<TARGET_IP>` e `<PORTA>` pelos valores do seu laboratório.
 
 # 5.1 Conectividade
-```bash
+
 ping -c 4 <TARGET_IP>.
-
-
 
 ---
 # 5.2 Mapeamento de portas e serviços (Nmap)
@@ -167,6 +165,7 @@ commands.sh — script com os comandos usados (ex.: executar medusa e salvar sa�
 wordlists/ — listas de exemplo (pequenas).
 
 DISCLAIMER.md e MIT-LICENSE.txt.
+
 
 
 
