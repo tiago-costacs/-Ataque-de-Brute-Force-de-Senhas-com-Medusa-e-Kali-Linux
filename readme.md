@@ -41,27 +41,26 @@ UDP scan:
 sudo nmap -v -sU -p <PORTAS> <TARGET_IP>
 
 
-## TCP SYN (stealth):
+TCP SYN (stealth):
 
 sudo nmap -v -sS <TARGET_IP>
 
 
-## Versão do serviço + timing agressivo:
+ Versão do serviço + timing agressivo:
 
 sudo nmap -v -T5 -sS -sV -p <PORTA> <TARGET_IP>
 
 
-## Detecção completa (SO, versão, scripts):
+ Detecção completa (SO, versão, scripts):
 
 sudo nmap -A <TARGET_IP>
 
 
-## Detecção de sistema operacional:
+Detecção de sistema operacional:
 
 sudo nmap -O <TARGET_IP>
 
-
-## Ignorar discovery e mostrar só portas abertas:
+ Ignorar discovery e mostrar só portas abertas:
 
 sudo nmap -v -T5 -sS -Pn --open <TARGET_IP>
 
