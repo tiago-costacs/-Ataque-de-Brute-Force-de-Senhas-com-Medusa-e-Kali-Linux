@@ -4,7 +4,7 @@
 
 
 Escopo: Metasploitable2 (VM em VirtualBox), rede Host-Only, IPs internal — testes realizados apenas neste ambiente controlado. 
-
+Limitações: Testes realizados somente nas máquinas citadas e em rede isolada; nenhum teste foi executado em sistemas em produção ou em redes públicas.
 
 Projeto: Ataques de Força Bruta com Kali + Medusa (Ambiente Controlado)
 
