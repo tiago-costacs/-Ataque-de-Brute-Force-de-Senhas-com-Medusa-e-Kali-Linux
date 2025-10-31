@@ -32,7 +32,7 @@ Este repositório contém material destinado a ambientes controlados e para fins
 5. Recomendações de mitigação
 6. Como reproduzir
 
-## Verifica se o host está ativo.
+ Verifica se o host está ativo.
 
 # 5.2 Mapeamento de portas e serviços (Nmap)
 
