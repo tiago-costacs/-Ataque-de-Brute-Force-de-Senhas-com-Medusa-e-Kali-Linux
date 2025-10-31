@@ -16,7 +16,7 @@ Laboratório realizado em ambiente controlado (VirtualBox, rede Host-Only). Fora
 - Alvo: Metasploitable 2 (DVWA disponível)
 - Atacante: Kali Linux
 - Rede: VirtualBox — Host-Only
-- Autorização: Projeto acadêmico D.I.L.L. — Tiago Costa — Data: <DATA>
+- Autorização: Projeto acadêmico D.I.L.L. — 
 
 
 ## 3. Ambiente
@@ -36,5 +36,4 @@ Laboratório realizado em ambiente controlado (VirtualBox, rede Host-Only). Fora
 > Todos os comandos foram executados a partir do Kali. Os outputs foram salvos em `artifacts/`.
 
 
-### 5.1 FTP — Força bruta (usuário único)
-**Comando:**
+
