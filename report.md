@@ -35,6 +35,9 @@ Laboratório realizado em ambiente controlado para demonstrar técnicas de forç
 # 5.1 Conectividade
 ```bash
 ping -c 4 <TARGET_IP>.
+
+
+
 ---
 # 5.2 Mapeamento de portas e serviços (Nmap)
 
