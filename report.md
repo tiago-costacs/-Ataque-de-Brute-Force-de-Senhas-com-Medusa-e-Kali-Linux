@@ -23,7 +23,7 @@ Laboratório realizado em ambiente controlado (VirtualBox, rede Host-Only). Fora
 - Kali Linux: versão X.Y
 - Metasploitable 2: versão standard
 - Medusa: versão X.Y
-- IP atacante: 192.168.56.100
+- IP atacante: <TARGET_IP>
 - IP alvo: <TARGET_IP>
 
 
